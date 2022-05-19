@@ -4,7 +4,7 @@ SeleBot a simple bot 🤖
 
 ## Description
 
-This a really simple bot that can automate some basic actions on a chrome broswer. The idea was the have a simple bot that could be scheduled and do some basic things like click on button, insert text in field ... with the goal of creating a competitive way of getting your hand on a limited article or anything demanding certain action at a certain time.
+This a really simple bot that can automate some basic actions on a chrome broswer using Selenium. The idea was the have a simple bot that could be scheduled and do some basic things like click on button, insert text in field ... with the goal of creating a competitive way of getting your hand on a limited article or anything demanding certain action at a certain time.
 
 This project is far from finish I have a lot of thing I would like to experiment.
 
