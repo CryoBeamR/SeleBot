@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:  
+  chrome:
+    container_name: Chrome
+    image: selenium/node-chrome:4.1.1-20211217
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - TZ=Canada/Eastern
+
+    ports:
+      - "6900:5900" 
+  selenium-hub:
+    container_name: Selenium-Hub
+    image: selenium/hub:4.1.1-20211217
+    ports:
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"
+    environment:
+      - TZ=Canada/Eastern
+  sele_bot:
+    container_name: Selebot
+    build: ./sele_bot
+    command: ["./wait-for-grid.sh", "python", "./app/bot.py"]
+    depends_on:
+      - selenium-hub
+    ports:
+      - 8001:8000
+    volumes:
+      - ./sele_bot/:/app/
+    environment:
+      - TZ=Canada/Eastern
+    
+  

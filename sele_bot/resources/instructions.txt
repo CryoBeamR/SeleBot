@@ -1,0 +1,34 @@
+ip YOURIPADDRESS
+iw 60 
+brw https://digitaleyes.market/collections/Crypto%20Idolz
+clk //*[@id="root"]/div[2]/main/div/div[1]/div/div/div[2]/button
+clk //*[@id="root"]/div[2]/main/div/div/div[3]/ul/li[1]
+sw 
+gpt
+gpc
+clk //*[@id="root"]/main/div/div/section/button[2]
+wrt //*[@id="root"]/main/div[2]/div/form/div[1]/div/section/div/textarea "this is just a random text "
+clk //*[@id="root"]/main/div[2]/div/form/div[2]/button
+clk //*[@id="root"]/main/div[2]/div/div/button
+wrt //*[@id="root"]/main/div[2]/div/form/div[1]/section/input[1] "this also"
+wrt //*[@id="root"]/main/div[2]/div/form/div[1]/section/input[2] "this also"
+clk //*[@id="root"]/main/div[2]/div/form/div[2]/div[1]/span/input
+clk //*[@id="root"]/main/div[2]/div/form/div[2]/div/button
+clk //*[@id="root"]/main/div[2]/div/div[2]/button
+w 0.2
+clk //*[@id="root"]/main/div[2]/div/div[2]/button
+sw
+gpt
+gpc
+clk //*[@id="root"]/div[2]/main/div/div/div/div[2]/div/div[2]/div[2]/div/div[2]/button
+clk //*[@id="headlessui-portal-root"]/div/div/div/div[2]/div/div/button[1]
+sw
+gpt True
+gpc True
+w 2
+clk //*[@id="root"]/div/div[1]/div[2]/div/button[2]
+sw 0
+gpt True
+gpc True
+w -d 2022-01-06T13:39:00
+clk //*[@id="root"]/div[2]/main/div/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/button
