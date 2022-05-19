@@ -25,7 +25,7 @@ This project is far from finish I have a lot of thing I would like to experiment
   usage : ```wrt <xPath of an html element>```
 * **brw**  
   description : Go the page specify in the link   
-  usage : ```ip <url>```
+  usage : ```brw <url>```
 * **sw**  
   description : Swith the focus of the bot to another window (next windows by default)  
   usage : ```sw ```
