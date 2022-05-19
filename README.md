@@ -14,34 +14,34 @@ This project is far from finish I have a lot of thing I would like to experiment
 * In ```/resources``` should be a file name ```instruction.txt```. This is your script that need to be executed by the bot to perform certain the actions in ```instruction.txt``` **(refer to ```/ressouces/instruction_demo.txt```)**.
 
 ### Commands
-* **ip** 
-  description : set the local ip address of the container
+* **ip**   
+  description : set the local ip address of the container  
   usage : ```ip <your ip adresse>```
-* **clk** 
-  description : Simulate a click on a html element
+* **clk**  
+  description : Simulate a click on a html element  
   usage : ```clk <xPath of an html element>```
 * **wrt**
   description : Simulate input in html element that accept typing
   usage : ```wrt <xPath of an html element>```
-* **brw**
-  description : Go the page specify in the link 
+* **brw**  
+  description : Go the page specify in the link   
   usage : ```ip <url>```
-* **sw**
-  description : Swith the focus of the bot to another window (next windows by default)
+* **sw**  
+  description : Swith the focus of the bot to another window (next windows by default)  
   usage : ```sw ```
-* **gpt**
-  description : Return title of the last page browse in terminal
+* **gpt**  
+  description : Return title of the last page browse in terminal  
   usage : ```gpt ```
-* **gpc**
-  description : Return url of the last page browse in terminal
+* **gpc**  
+  description : Return url of the last page browse in terminal  
   usage : ```gpc ```
-* **w**
-  description : Timeout the bot for sec amount of time or until date is reach
+* **w**  
+  description : Timeout the bot for sec amount of time or until date is reach  
   usage : ```w <your ip adresse>```
-* **iw**
-  description : Define the amount of time the bot have to wait after a element so it can load
-  usage : ```iw [-opt] <time>```
-  option : 
+* **iw**  
+  description : Define the amount of time the bot have to wait after a element so it can load  
+  usage : ```iw [-opt] <time>```  
+  option :   
   -d : date (ex : 2022-01-06T13:39:00) 
   
 
@@ -74,7 +74,7 @@ ip 192.168.1.12
 ```
 
 ## Authors
-[Roodney Aladin](www.linkedin.com/in/aladin-roodney) 
+[Roodney Aladin](https://www.linkedin.com/in/aladin-roodney) 
 
 ## Version History
 * 0.1
