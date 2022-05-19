@@ -20,8 +20,8 @@ This project is far from finish I have a lot of thing I would like to experiment
 * **clk**  
   description : Simulate a click on a html element  
   usage : ```clk <xPath of an html element>```
-* **wrt**
-  description : Simulate input in html element that accept typing
+* **wrt**  
+  description : Simulate input in html element that accept typing  
   usage : ```wrt <xPath of an html element>```
 * **brw**  
   description : Go the page specify in the link   
